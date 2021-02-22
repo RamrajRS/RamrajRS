@@ -1,1 +1,9 @@
 nbproject/
+node_modules/
+vids/
+bower.json
+excanvas.json
+fstyles.css
+knob.jquery.json
+LICENSE
+secretplan.png

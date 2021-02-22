@@ -4,7 +4,7 @@
   "description": "Nice, downward compatible, touchable, jQuery dial",
   "main": "dist/jquery.knob.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-css": "tailwindcss build styles.css -o fstyles.css"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/aterrien/jQuery-Knob/issues"
   },
-  "homepage": "https://github.com/aterrien/jQuery-Knob#readme"
+  "homepage": "https://github.com/aterrien/jQuery-Knob#readme",
+  "devDependencies": {
+    "autoprefixer": "10.2.4",
+    "postcss": "8.2.6",
+    "tailwindcss": "2.0.3"
+  }
 }

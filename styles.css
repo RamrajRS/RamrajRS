@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.button{
+    @apply h-44 w-44 bg-white flex  justify-center items-center text-primary font-bold rounded-3xl shadow-2xl cursor-pointer hover:bg-primary hover:text-white transition ease-out duration-500  text-4xl;
+}
+
+.clicked{
+    @apply bg-primary text-white text-4xl;
+}
+
