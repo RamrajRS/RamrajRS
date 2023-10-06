@@ -23,7 +23,7 @@
   "homepage": "https://github.com/aterrien/jQuery-Knob#readme",
   "devDependencies": {
     "autoprefixer": "10.2.4",
-    "postcss": "8.2.6",
+    "postcss": "8.4.31",
     "tailwindcss": "2.0.3"
   }
 }
